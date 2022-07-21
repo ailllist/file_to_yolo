@@ -1,0 +1,7 @@
+<object-class> <x> <y> <width> <height>
+
+x = <absolute_x>/<image_width> (center point of bounding box)
+y = <absolute_y>/<image_height> (center point of bounding box)
+
+width = <absolute_height>/<image_width>
+height = <absolute_height>/<image_height>

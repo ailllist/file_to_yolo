@@ -1,0 +1,8 @@
+1. multi_img_checker or img_checker
+: 입력한 크기에 맞지 않는 이미지를 찾고 만약 조건에 맞지 않는 이미지가 있으면 지운다.
+2. lbl_matcher
+: 1의 결과로 지워진 이미지에 해당하는 label을 지운다.
+3. converter
+: .json 형식의 파일을 yolov5 포멧에 맞게끔 변형시킨다.
+4. remover
+: 3의 결과로 지워진 label에 해당하는 이미지를 지운다.

@@ -1,0 +1,12 @@
+
+convert/
+.idea/
+test.py
+
+*.json
+*.jpg
+*.txt
+*.png
+
+!classes.txt
+
