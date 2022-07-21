@@ -5,6 +5,7 @@ LBL_PATH = r"/media/autonav/새 볼륨/0718_deliv/labels"
 
 file_list = os.listdir(LBL_PATH)
 
+MAX_CLASS_NUM = 14
 max = 0
 cnt = 1
 total = len(file_list)
@@ -17,7 +18,7 @@ for i in file_list:
             for j in lines:
                 if int(j.split(" ")[0]) > max:
                     max = int(j.split(" ")[0])
-                if int(j.split(" ")[0]) > 14:
+                if int(j.split(" ")[0]) > MAX_CLASS_NUM:
                     error_list.append(i)
         print("%d/%d" % (cnt, total))
     except:
